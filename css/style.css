@@ -212,6 +212,13 @@ main h2,h3{
     padding-bottom: 2rem;
 }
 
+main .section-down p{
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+    font-style: italic;
+
+}
+
 .fa-arrow-down{
     font-size: 1.5rem;
     color: var(--color-black);
