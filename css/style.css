@@ -222,7 +222,7 @@ main .section-down p{
 .fa-arrow-down{
     font-size: 1.5rem;
     color: var(--color-black);
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 .section-down{
