@@ -64,6 +64,10 @@ a{
     justify-content: space-between;
 }
 
+.justify-center{
+    justify-content: center;
+}
+
 .jc-flex-end{
     justify-content: flex-end;
 }
@@ -74,6 +78,10 @@ a{
 
 .a-content-center{
 align-content: center;
+}
+
+.flex-direction-column{
+    flex-direction: column;
 }
 
 /* Utility Text */
@@ -99,7 +107,10 @@ align-content: center;
 /* Utility borders */
 .border-rounded{
     border-radius: 1.5rem;
-   
+}
+
+.border-extra-rounded{
+    border-radius: 2.8rem;
 }
 
 /* Utility Buttons */
@@ -109,10 +120,20 @@ align-content: center;
     margin: auto;
 }
 
-
 .btn-blue{
     background-color: var(--color-blue);
     color: var(--color-white);
+}
+
+.section-down{
+
+}
+
+.btn-circle{    
+    width: 18%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    margin-bottom: 2rem;
 }
 
 /* Body */
@@ -121,7 +142,9 @@ body{
     background-color: var(--color-white);
 }
 
-/* Header */
+/**** HEADER ****/
+
+/* nav */
 header nav li a{
     color: var(--color-white);
 }
@@ -134,6 +157,7 @@ header nav{
     position: relative;
 }
 
+/* Hero */
 .card{
     padding: 2rem;
     margin-bottom: 1.8rem;
@@ -161,9 +185,39 @@ p{
     top: 33px;
 }
 
+.fa-apple{
+    padding-right: 0.5rem;
+}
+
 .fa-file-code,.fa-compass-drafting,.fa-laptop-code,.fa-bullhorn{
     font-size: 6rem;
     padding-bottom: 1.8rem;
 }
 
-/* Main */
+/**** MAIN ****/
+
+/* Section - Planning */
+.section-up{
+    width: 80%;
+    padding-top: 2rem;
+}
+
+main img{
+    width: 100%;
+    display: block;
+}
+
+main h2,h3{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.fa-arrow-down{
+    font-size: 1.5rem;
+    color: var(--color-black);
+    padding-top: 1rem;
+}
+
+.section-down{
+    margin-bottom: 2rem;
+}
