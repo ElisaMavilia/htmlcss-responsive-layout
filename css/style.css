@@ -14,7 +14,15 @@
 .container{
     background-color: aqua;
     width: 100%;
-    padding: 20px;
+    padding: 2rem;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* Utility Colors */
@@ -43,6 +51,31 @@
     background-color: var(--color-black);
 }
 
+.bg-light-blue{
+    background-color: var(--color-light-blue);
+}
+
+/* Utility Flex */
+.d-flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.jc-flex-end{
+    justify-content: flex-end;
+}
+
+.a-items-center{
+    align-items: center;
+}
+
+.a-content-center{
+align-content: center;
+}
+
 /* Utility Text */
 .text-white{
     color: var(--color-white);
@@ -62,4 +95,54 @@
 
 .text-align-center{
     text-align: center;
+}
+/* Utility borders */
+.border-rounded{
+    border-radius: 1.5rem;
+   
+}
+
+/* Utility Buttons */
+.btn{
+    border-radius: 2rem;
+    padding: 8px 50px;
+    margin: auto;
+}
+
+.btn-blue{
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+/* Body */
+body{
+    font-family: "PT Sans", sans-serif;
+    background-color: var(--color-white);
+}
+
+/* Header */
+header nav li a{
+    color: var(--color-white);
+}
+
+header nav ul{
+
+}
+
+header nav{
+    position: relative;
+}
+
+/* Main */
+.card{
+    padding: 2rem;
+}
+
+h3{
+    padding-bottom: 1.2rem;
+}
+
+p{
+    padding-bottom: 2.5rem;
+    line-height: 1.8em;
 }
