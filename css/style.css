@@ -161,7 +161,7 @@ p{
     top: 33px;
 }
 
-.fa-file-code{
+.fa-file-code,.fa-compass-drafting,.fa-laptop-code,.fa-bullhorn{
     font-size: 6rem;
     padding-bottom: 1.8rem;
 }
